@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+<div class="backdrop " data-modal>
+    <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+            <svg class="modal-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+            <label class="modal-name" for="name">Name</label>
+            <input class="modal-input" type="text" name="name" id="name" autofocus>
+        
+            <label class="modal-name" for="tel">Phone</label>
+            <input class="modal-input" type="tel" name="tel" id="tel">
+        
+            <label class="modal-name" for="email">Email</label>
+            <input class="modal-input" type="email" name="email" id="email">
+        
+            <label class="modal-name" for="comment">Comment</label>
+            <textarea name="comment" id="comment" rows="10" placeholder="Text input"></textarea>
+        
+            <input type="checkbox" name="accept" id="accept">
+            <label for="accept">I accept the terms and conditions of the Privacy Policy</label>
+            <br>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+
+    
+
+</body>
+</html>
