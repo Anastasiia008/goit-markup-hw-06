@@ -42,6 +42,10 @@ textarea {
     resize: none;
 }
 
+label {
+    display: block;
+}
+
 .list {
     list-style: none;
 }
@@ -296,7 +300,7 @@ margin-bottom: 8px;
     border-radius: 4px;
     min-width: 165px;
     height: 40px;
-    transition: background-color 2500ms var(--cubic);
+    transition: background-color 250ms var(--cubic);
 }
 
 .footer-btn:hover,
