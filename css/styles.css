@@ -299,8 +299,8 @@ margin-bottom: 8px;
     transition: background-color 2500ms var(--cubic);
 }
 
-.foter-btn:hover,
-.foter-btn:focus {
+.footer-btn:hover,
+.footer-btn:focus {
     background-color: var(--portfolio-btn);
 }
 
