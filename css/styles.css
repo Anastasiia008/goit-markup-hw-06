@@ -691,18 +691,39 @@ margin: auto;
 }
 
 
+.privacy-link {
+    color: var(--interactive-elements);
+}
 
+.checkbox-wrap {
+    margin-bottom: 24px;
+}
 
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #757575;
+    position: relative;
+}
 
+.checkbox-icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border: 1.25px solid var(--dark-color);
+    border-radius: 2px;
+    margin-right: 8px;
+    fill: transparent;
+    transition: background-color 250ms var(--cubic), fill 250ms var(--cubic);
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.modal-checkbox:checked + .checkbox-label span {
+    background-color: var(--interactive-elements);
+    border: none;
+    fill: var(--white);
+}
